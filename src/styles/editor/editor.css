@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;  400;  600&display=swap');
+
+/*
+    #ROOT :: IMPORTANT
+*/
+
+#root{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.code_edit_container{
+    display: flex;
+    flex-direction: row;
+}
+*:not(.react-codemirror2 *) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    color: #292b2c;
+}
+*{border: 0 !important}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.app h1 {
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.app .tabs button {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    transition: 0.4s;
+    cursor: pointer;
+    user-select: none;
+}
+.app .tabs button:hover, .app .tabs button.current {
+    background: #292b2c;
+    color: #f7f7f7;
+}
+.app .theme-selector {
+    margin: 0.75rem 0;
+    text-align: center;
+}
+.app .theme-selector select {
+    border-radius: 4px;
+}
+.app .code-editor {
+    width: 100%;
+}
+.app .code-editor .CodeMirror-wrap {
+    border-radius: 4px;
+    padding: 0.25rem;
+}
+.app .code-executor {
+    width: 100%;
+}
+.app .btn {
+    margin: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    background: #0275d8;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: #f7f7f7;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+}
+.app .btn:active {
+    box-shadow: none;
+}
+.app .btn.run {
+    background: #5cb85c;
+}
+.app iframe {
+    padding: 0.25rem;
+    width: 100%;
+    border: 1px dashed #292b2c;
+    border-radius: 4px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+*{border: 1px solid}
+.app{
+    flex-direction: column;
+}
+.
+.e-col1,.e-col2{
+    width: 50%;
+    height: 1080px;
+}
+.edit-main{
+    width: -webkit-fill-available;
+    height: 1080px;
+
+}
+.colhandle{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    width: auto;
+    height: 100px;
+}
+.colhandle1{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 975px;
+    flex: 1 1 auto;
+}
+.colm-1,.colm-2{
+    width: 49.9999999%;
+    border: 1px solid black !important;
+}
+.code-editor{border: 1px solid black !important;}
+iframe.code-frame {
+    height: 975px;
+    width: -webkit-fill-available;
+}
+.CodeMirror {
+    height: 930px !important;
+}
+.tabs button{
+    width: 100px;
+    height: 50px;
+    background: #5cb85c;
+    margin-right: 10px;
+}
+.row{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 20px;
+}

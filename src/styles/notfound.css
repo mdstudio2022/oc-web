@@ -1,0 +1,10 @@
+.main_notfound{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background:black;
+}
+.span_notfound{
+    font-size: 72px;
+    font-weight: 400;
+    color:white;
+}
